@@ -32,3 +32,7 @@ Admins also see an **Admin Command Center** placeholder panel.
 - Showing results
 
 Workshop participants will create GitHub issues for features like these and work through them using the app.
+
+## Workshop
+
+Start with the step-by-step tasks in [`workshop/`](workshop/README.md).
