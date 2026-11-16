@@ -1,0 +1,202 @@
+:root {
+  --bg: #0b0b1e;
+  --text: #f4f4ff;
+  --muted: #c4c4e0;
+  --violet: #8b5cf6;
+  --indigo: #6366f1;
+  --pink: #ec4899;
+  --cyan: #22d3ee;
+  --glass: rgba(255, 255, 255, 0.07);
+  --glass-border: rgba(255, 255, 255, 0.18);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 15% 10%, rgba(139, 92, 246, 0.35), transparent 40%),
+    radial-gradient(circle at 85% 30%, rgba(236, 72, 153, 0.25), transparent 40%),
+    radial-gradient(circle at 50% 100%, rgba(34, 211, 238, 0.2), transparent 50%),
+    var(--bg);
+  overflow-x: hidden;
+}
+
+.blob {
+  position: fixed;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.45;
+  z-index: -1;
+  animation: float 14s ease-in-out infinite alternate;
+}
+.blob-1 { background: var(--violet); top: -120px; left: -120px; }
+.blob-2 { background: var(--pink); bottom: -140px; right: -100px; animation-delay: -7s; }
+
+@keyframes float {
+  to { transform: translate(60px, 40px) scale(1.15); }
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.hero { text-align: center; }
+
+.badge {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--glass-border);
+  background: var(--glass);
+  backdrop-filter: blur(10px);
+  font-size: 0.85rem;
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
+}
+
+h1 {
+  font-size: clamp(2.2rem, 6vw, 3.8rem);
+  line-height: 1.1;
+  margin: 1.2rem 0 0.8rem;
+  letter-spacing: -0.02em;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, var(--cyan), var(--violet), var(--pink));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+h2 { margin-top: 0; }
+
+.glass,
+.menu-card {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
+  padding: 1.5rem;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.25);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--muted);
+}
+
+select {
+  width: 100%;
+  max-width: 360px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  color: var(--text);
+  background: #1a1a3a;
+  border: 1px solid var(--violet);
+  border-radius: 12px;
+}
+
+select:focus-visible {
+  outline: 3px solid var(--cyan);
+  outline-offset: 2px;
+}
+
+.greeting { min-height: 1.5em; font-weight: 600; }
+
+.menu-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.menu-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.menu-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 40px rgba(236, 72, 153, 0.45);
+}
+.menu-card h3 { margin-top: 0; }
+.menu-card p { color: var(--muted); }
+
+.tags {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.tags li {
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, var(--indigo), var(--violet));
+}
+
+.muted { color: var(--muted); }
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blob { animation: none; }
+  .menu-card { transition: none; }
+}
+
+/* Test mode toolbar: intentionally plain so it reads as a dev tool, not the app */
+.test-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1.5rem;
+  background: #fde047;
+  color: #1a1a1a;
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 0.9rem;
+  border-bottom: 3px dashed #1a1a1a;
+}
+.test-toolbar label { display: inline; margin: 0; color: inherit; font-weight: 700; }
+.test-toolbar select {
+  width: auto;
+  padding: 0.35rem 0.6rem;
+  color: #1a1a1a;
+  background: #fff;
+  border: 2px solid #1a1a1a;
+  border-radius: 4px;
+  font: inherit;
+}
+.test-toolbar select:focus-visible { outline: 3px solid #1d4ed8; }
+.test-label { font-weight: 800; }
+.test-hint { opacity: 0.8; }
+.test-toolbar code { background: rgba(0, 0, 0, 0.1); padding: 0 0.3rem; border-radius: 3px; }
+
+.admin { border-color: var(--pink); box-shadow: 0 0 30px rgba(236, 72, 153, 0.4); }

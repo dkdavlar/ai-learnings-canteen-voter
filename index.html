@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canteen Menu Voter ✨</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="test-toolbar" aria-label="Test mode">
+    <span class="test-label">🧪 TEST MODE</span>
+    <label for="view-as">View as</label>
+    <select id="view-as">
+      <option value="">— No user —</option>
+    </select>
+    <span class="test-hint">Tip: add <code>?as=u2</code> to the URL</span>
+  </aside>
+
+  <div class="blob blob-1" aria-hidden="true"></div>
+  <div class="blob blob-2" aria-hidden="true"></div>
+
+  <main class="container">
+    <header class="hero">
+      <span class="badge">✨ Powered by Next-Gen Lunch Intelligence</span>
+      <h1>Revolutionize Your <span class="gradient-text">Lunch Experience</span></h1>
+      <p class="subtitle">
+        Unlock the future of collaborative dining. Seamlessly empower your team
+        to make data-driven, delicious decisions. 🚀
+      </p>
+    </header>
+
+    <section class="glass" aria-labelledby="user-heading">
+      <h2 id="user-heading">🤖 Your AI-Curated Profile</h2>
+      <p id="greeting" class="greeting" aria-live="polite"></p>
+    </section>
+
+    <section id="admin-panel" class="glass admin" aria-labelledby="admin-heading" hidden>
+      <h2 id="admin-heading">🛡️ Admin Command Center</h2>
+      <p class="muted">Only admins can see this. Admin features are a workshop task!</p>
+    </section>
+
+    <section aria-labelledby="menu-heading">
+      <h2 id="menu-heading">🍽️ Today's Curated Menus</h2>
+      <ul id="menu-list" class="menu-grid"></ul>
+    </section>
+
+    <section class="glass" aria-labelledby="results-heading">
+      <h2 id="results-heading">📊 Results</h2>
+      <p class="muted">Voting and results are not built yet — that's your workshop task!</p>
+    </section>
+
+    <footer>Crafted with 💜 and cutting-edge synergy.</footer>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
