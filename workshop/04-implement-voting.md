@@ -10,12 +10,9 @@
 
 ## Steps
 
-1. Start a **new session** for this issue, so the work gets its own branch.
-2. Ask for a plan first:
-   ```text
-   Work on the GitHub issue "Vote for a menu" in this repo. Read the issue and present a plan first: which files will change, how votes are stored, and how I can test it. Don't edit anything until I approve.
-   ```
-3. Check the plan against the issue. Push back if it goes beyond scope, for example by adding vote changing or results. Then approve it.
+1. In the GitHub Copilot app, go to **Issues**, choose **Created by me**, and select the "Vote for a menu" issue in your workshop repository.
+2. Click **Open session**. Review the prefilled `/issue-fix` command, select **Plan mode**, then send the command.
+3. Check the plan against the issue, including which files will change, how votes are stored, and how to test the change. Push back if it goes beyond scope, for example by adding vote changing or results. Approve the plan before the agent edits anything.
 4. When the agent is done, **read the diff**. Ask about anything unclear:
    ```text
    Walk me through the diff. Why is each change needed?
