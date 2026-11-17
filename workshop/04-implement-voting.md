@@ -1,4 +1,4 @@
-# 05 – Implement voting
+# 04 – Implement voting
 
 **Goal:** Have the agent implement the "Vote for a menu" issue, and review the change before it goes anywhere.
 

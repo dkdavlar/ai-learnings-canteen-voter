@@ -21,16 +21,16 @@ Do the tasks in order. Each one builds on the one before it.
 | # | Task | You'll learn |
 |---|------|--------------|
 | 01 | [Explore the app](01-explore-the-app.md) | Start a repository coding session, preview the app, and try test mode |
-| 02 | [Create a project](02-create-a-project.md) | Use a persistent Project separately to coordinate work |
-| 03 | [Add custom instructions](03-add-custom-instructions.md) | Use the task 01 session to add repository rules |
-| 04 | [Create GitHub issues](04-create-github-issues.md) | Writing small, clear, testable work items |
-| 05 | [Implement voting](05-implement-voting.md) | Plan, implement, review a diff, open a PR |
-| 06 | [Review and merge](06-review-and-merge.md) | Reviewing a pull request and merging it |
+| 02 | [Add custom instructions](02-add-custom-instructions.md) | Use the task 01 session to add repository rules |
+| 03 | [Create GitHub issues](03-create-github-issues.md) | Writing small, clear, testable work items |
+| 04 | [Implement voting](04-implement-voting.md) | Plan, implement, review a diff, open a PR |
+| 05 | [Review and merge](05-review-and-merge.md) | Reviewing a pull request and merging it |
 
 ### Extensions (if you have time)
 
 | # | Task | You'll learn |
 |---|------|--------------|
+| 06 | [Create a project](06-create-a-project.md) | Coordinate the remaining issues with a persistent Project |
 | 07 | [Change your vote](07-change-your-vote.md) | Iterating on existing behaviour safely |
 | 08 | [Display results](08-display-results.md) | Building on earlier work, and checking edge cases |
 | 09 | [Create an automation](09-create-an-automation.md) | Designing a repeatable, read-only agent task |

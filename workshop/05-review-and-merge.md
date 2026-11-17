@@ -1,6 +1,6 @@
-# 06 – Review and merge
+# 05 – Review and merge
 
-**Goal:** Review the pull request from task 05 and merge it into `main` on purpose.
+**Goal:** Review the pull request from task 04 and merge it into `main` on purpose.
 
 **Merging** applies the PR's commits to `main`, so they become the shared version everyone builds on.
 
