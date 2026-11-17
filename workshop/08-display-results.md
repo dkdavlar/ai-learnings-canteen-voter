@@ -4,16 +4,12 @@
 
 ## Steps
 
-1. In the Project from task 06, ask it to start or coordinate a repository coding session for the "Display results" issue, based on the latest `main` after task 07 is merged.
-2. Ask the session:
-   ```text
-   Work on the GitHub issue "Display results". Show the vote total for every menu in the Results section, including menus with zero votes. It must update immediately after voting or changing a vote. Present a plan first.
-   ```
-3. Test it:
+1. After task 07 is merged, follow the different subagent assigned to "Display results" in the Project from task 06. It must start from the updated `main`, so it includes voting and vote changes.
+2. Test the result:
    - Vote as several users. The totals match the number of users who voted.
    - Change one user's vote. One menu goes down by 1 and another goes up by 1.
    - Menus with no votes show `0`.
-4. Review the diff, then open, review and merge the PR.
+3. Review the subagent's diff and PR, then merge only when you're satisfied.
 
 ## Stretch
 

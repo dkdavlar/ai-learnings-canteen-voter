@@ -30,10 +30,10 @@ Do the tasks in order. Each one builds on the one before it.
 
 | # | Task | You'll learn |
 |---|------|--------------|
-| 06 | [Create a project](06-create-a-project.md) | Coordinate the remaining issues with a persistent Project |
+| 06 | [Create a Project](06-create-a-project.md) | Plan open issues and delegate each to a different subagent |
 | 07 | [Change your vote](07-change-your-vote.md) | Iterating on existing behaviour safely |
 | 08 | [Display results](08-display-results.md) | Building on earlier work, and checking edge cases |
-| 09 | [Create an automation](09-create-an-automation.md) | Designing a repeatable, read-only agent task |
+| 09 | [Create an automation](09-create-an-automation.md) | Create and configure a scheduled, read-only agent task |
 | 10 | [Bonus challenges](10-bonus-challenges.md) | Parallel sessions, skills, agent review |
 
 ## The voting rules (used across tasks)

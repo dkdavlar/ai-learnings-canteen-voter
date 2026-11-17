@@ -4,16 +4,12 @@
 
 ## Steps
 
-1. In the Project from task 06, ask it to start or coordinate a repository coding session for the "Change your vote" issue, based on the latest `main` so it includes voting.
-2. Ask the session:
-   ```text
-   Work on the GitHub issue "Change your vote". Read the issue and the existing voting code first, then present a plan. Reuse the existing vote storage rather than adding a second one. Wait for my approval.
-   ```
-3. After implementation, test the tricky cases:
+1. In the Project from task 06, follow the subagent assigned to "Change your vote." It should work from the latest `main`, which includes the merged voting feature, and should not start until you approve the Project's plan.
+2. After implementation, test the tricky cases:
    - Bo votes for the Noodle Bowl, then switches to the Salad. Bo now has exactly one vote, for the Salad.
    - Switching to the menu you already voted for changes nothing.
    - Other users' votes are untouched.
-4. Read the diff, open a PR linked to the issue, review and merge it (repeat tasks 04–05).
+3. Read the diff and review the subagent's PR linked to the issue. Merge it only when you're satisfied (repeat tasks 04–05).
 
 ## Done when
 

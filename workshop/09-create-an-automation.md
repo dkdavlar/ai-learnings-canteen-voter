@@ -1,8 +1,8 @@
 # 09 – Create an automation
 
-**Goal:** Design a repeatable, **read-only** agent task that summarizes open issues, and try it by hand. You won't set up a real schedule in this workshop.
+**Goal:** Create and configure a scheduled, **read-only** automation that summarizes open issues.
 
-An automation is a prompt that runs repeatedly, for example every morning. Because it runs without you watching, it should be safe and read-only by default.
+An automation runs a prompt on a schedule, sometimes without you watching. Keep its instructions read-only, and check its configuration before enabling it.
 
 ## Steps
 
@@ -15,9 +15,15 @@ An automation is a prompt that runs repeatedly, for example every morning. Becau
    - Is the recommendation sensible?
    - Did it stay read-only?
 3. Improve the prompt (format, length, what to recommend) until you'd be happy getting it every day.
-4. Discuss with your neighbour how often it should run, who should see the output, and what could go wrong if it weren't read-only.
+4. In the GitHub Copilot app, create an automation for this repository or its Project using the final prompt. Configure:
+   - A schedule that suits how often the issues change (for example, once each weekday)
+   - An available model, and why you chose it
+   - The run mode or approval setting. An unattended mode is appropriate only because this prompt is read-only; if you're unsure, choose a mode that requires approval
+5. Review the repository, prompt, schedule, model, and run mode before saving. Run it once now if the app offers that option, and check that the result is still read-only. Decide when to pause or disable the schedule after the workshop.
 
 ## Done when
 
 - [ ] You have a reliable read-only summary prompt
 - [ ] You've run it manually and checked the output
+- [ ] You created and configured a scheduled automation
+- [ ] You reviewed its first result and know how to pause or disable it
