@@ -8,7 +8,9 @@ No prior Git or AI-agent experience is needed. Git terms are explained the first
 
 - A GitHub account with access to this repository, or to your own copy of it (your facilitator will tell you which)
 - The GitHub Copilot app installed and signed in
-- A browser and Python 3 for running the page locally. See the [run instructions](../README.md#run-it) for Windows and macOS/Linux.
+- A browser for viewing the app preview
+
+Start by adding your workshop repository to the app and opening a normal local repository coding session. In [task 01](01-explore-the-app.md), you'll ask Copilot to start and preview the page; a persistent Project comes later.
 
 ## Tasks
 
@@ -18,9 +20,9 @@ Do the tasks in order. Each one builds on the one before it.
 
 | # | Task | You'll learn |
 |---|------|--------------|
-| 01 | [Explore the app](01-explore-the-app.md) | What the starter does, and how test mode works |
-| 02 | [Create a project](02-create-a-project.md) | Connecting a repository to the app, and sessions |
-| 03 | [Add custom instructions](03-add-custom-instructions.md) | Steering the agent with repository rules |
+| 01 | [Explore the app](01-explore-the-app.md) | Start a repository coding session, preview the app, and try test mode |
+| 02 | [Create a project](02-create-a-project.md) | Use a persistent Project separately to coordinate work |
+| 03 | [Add custom instructions](03-add-custom-instructions.md) | Use the task 01 session to add repository rules |
 | 04 | [Create GitHub issues](04-create-github-issues.md) | Writing small, clear, testable work items |
 | 05 | [Implement voting](05-implement-voting.md) | Plan, implement, review a diff, open a PR |
 | 06 | [Review and merge](06-review-and-merge.md) | Reviewing a pull request and merging it |
