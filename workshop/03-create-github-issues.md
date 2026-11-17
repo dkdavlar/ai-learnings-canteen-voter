@@ -1,4 +1,4 @@
-# 04 – Create GitHub issues
+# 03 – Create GitHub issues
 
 **Goal:** Turn the voting rules into small, clear issues on GitHub that you (or the agent) can pick up one at a time.
 

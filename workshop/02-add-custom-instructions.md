@@ -1,12 +1,12 @@
-# 03 – Add custom instructions
+# 02 – Add custom instructions
 
 **Goal:** Give the agent standing rules for this repository, so you don't have to repeat them in every prompt.
 
-For this exercise, use a **repository instructions file**, `.github/copilot-instructions.md`. It lives in the repository, not in the app's Project-level settings, so it can be shared with sessions working on that repository.
+For this exercise, use a **repository instructions file**, `.github/copilot-instructions.md`. It lives in the repository, rather than app-level settings, so it can be shared with sessions working on that repository.
 
 ## Steps
 
-1. Return to the repository coding session you started in task 01, not the Project conversation from task 02. Ask it:
+1. Return to the repository coding session you started in task 01. Ask it:
    ```text
    Create .github/copilot-instructions.md for this repo with short, practical rules:
    - Plain HTML, CSS and JavaScript only. No frameworks, build tools or backend.

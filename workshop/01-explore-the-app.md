@@ -7,9 +7,9 @@
 1. In the GitHub Copilot app, select or add your own workshop repository. Start a **local repository coding session**: a chat attached to that repository and its working copy. This is not a standalone chat without files, and you don't need a persistent Project yet.
 2. In that session, ask Copilot:
    ```text
-   Start this webpage and open a preview. Don't change any project files. If something is missing, explain what's needed before installing anything.
+   Start this webpage and open it in a Browser canvas inside the Copilot app. Don't change any project files. If something is missing, explain what's needed before installing anything.
    ```
-   Open the preview or the URL Copilot provides. If something is missing, review its explanation before deciding whether to install it.
+   Explore the page in the Browser canvas in the Copilot app. If something is missing, review its explanation before deciding whether to install it.
 3. Find the yellow **🧪 TEST MODE** bar at the top. Use **View as** to switch between users, and notice how the greeting changes.
 4. Choose **Ada Brick**, who is an admin. An **Admin Command Center** panel appears. Switch to an employee and it disappears.
 5. Add `?as=u3` to the end of the URL and reload. The page now shows Clara Plate.

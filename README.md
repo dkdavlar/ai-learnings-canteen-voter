@@ -10,7 +10,7 @@ No build, backend or login is required.
 2. Open a normal local repository coding session, not a persistent Project.
 3. Ask Copilot:
    ```text
-   Start this webpage and open a preview. Don't change any project files. If something is missing, explain what's needed before installing anything.
+   Start this webpage and open it in a Browser canvas inside the Copilot app. Don't change any project files. If something is missing, explain what's needed before installing anything.
    ```
 4. When you're finished, ask Copilot to stop the preview.
 

@@ -4,8 +4,8 @@
 
 ## Steps
 
-1. Start a new session from the latest `main`.
-2. Prompt:
+1. In the Project from task 06, ask it to start or coordinate a repository coding session for the "Display results" issue, based on the latest `main` after task 07 is merged.
+2. Ask the session:
    ```text
    Work on the GitHub issue "Display results". Show the vote total for every menu in the Results section, including menus with zero votes. It must update immediately after voting or changing a vote. Present a plan first.
    ```
