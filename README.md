@@ -4,20 +4,15 @@ A minimal starter for a canteen **menu voting** app, used in an AI-assisted deve
 
 ## Run it
 
-No build, backend or login. Install Python 3, open a terminal in the repository folder, and start a local server:
+No build, backend or login is required.
 
-**Windows (PowerShell or Command Prompt):**
-```powershell
-py -3 -m http.server 8000
-```
-If `py` is unavailable, try `python -m http.server 8000` instead.
-
-**macOS/Linux:**
-```sh
-python3 -m http.server 8000
-```
-
-Open <http://localhost:8000> in your browser. Stop the server with Ctrl+C. Using a local server is recommended because browsers handle storage for files opened directly differently.
+1. Add your workshop repository to the GitHub Copilot app.
+2. Open a normal local repository coding session, not a persistent Project.
+3. Ask Copilot:
+   ```text
+   Start this webpage and open a preview. Don't change any project files. If something is missing, explain what's needed before installing anything.
+   ```
+4. When you're finished, ask Copilot to stop the preview.
 
 ## What's included
 

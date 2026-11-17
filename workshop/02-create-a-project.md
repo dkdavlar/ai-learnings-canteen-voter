@@ -1,25 +1,24 @@
 # 02 – Create a project
 
-**Goal:** Connect the repository to the GitHub Copilot app and start your first session.
+**Goal:** Create a persistent Project and understand how it differs from your repository session.
 
 ## Key terms
 
 - **Repository (repo):** a project folder whose full history is tracked by Git and hosted on GitHub.
 - **Branch:** a separate line of work inside a repo. `main` is the shared, "official" version. Changes happen on other branches so `main` stays stable.
-- **Session:** a conversation with the agent about one piece of work. In the app, a session usually gets its own branch and working copy, so several sessions don't step on each other.
+- **Repository coding session:** the conversation you started in task 01, attached to a repository and its working copy for a piece of work.
+- **Persistent Project:** a separate, ongoing space in the app for coordinating work and sessions. Adding a repository to the app does not by itself create a persistent Project.
 
 ## Steps
 
-1. In the GitHub Copilot app, add this repository as a project. Use the repository your facilitator points you to, or your own fork/copy of it.
-2. Start a new session in the project.
-3. Ask the agent to get its bearings:
+1. In the GitHub Copilot app, create a persistent Project for your workshop. Keep it separate from the repository coding session you started in task 01.
+2. Tell the Project about your workshop repository and what you want to achieve. Try:
    ```text
-   Give me a short overview of this repository: the files, how to run it, and what's intentionally left unfinished. Don't change anything.
+   I'm working on a canteen menu voting workshop using my workshop repository. Help me keep track of the work, but don't change any files yet. Explain how this Project and repository coding sessions can work together.
    ```
-4. Compare its answer with what you found in task 01. Did it miss or invent anything?
+3. Compare the Project conversation with your task 01 repository session: the Project helps coordinate the work; the repository session is where you explored the working copy. Keep the task 01 session available for task 03.
 
 ## Done when
 
-- [ ] The repository is set up as a project in the app
-- [ ] You've had a session that summarized the repo correctly
-- [ ] You can explain what a branch is in one sentence
+- [ ] You created a persistent Project for the workshop
+- [ ] You can explain the difference between the Project and a repository coding session
