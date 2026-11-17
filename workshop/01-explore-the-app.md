@@ -4,11 +4,19 @@
 
 ## Steps
 
-1. Start the page from the repository folder:
-   ```bash
+1. Install Python 3 and open a terminal in the repository folder. Start the local server:
+
+   **Windows (PowerShell or Command Prompt):**
+   ```powershell
+   py -3 -m http.server 8000
+   ```
+   If `py` is unavailable, try `python -m http.server 8000` instead.
+
+   **macOS/Linux:**
+   ```sh
    python3 -m http.server 8000
    ```
-   Then open <http://localhost:8000>. You can also just open `index.html` in a browser.
+   Open <http://localhost:8000> in your browser. Stop the server with Ctrl+C when finished. Use localhost rather than opening `index.html` directly, since browser storage behavior for local files varies.
 2. Find the yellow **🧪 TEST MODE** bar at the top. Use **View as** to switch between users, and notice how the greeting changes.
 3. Choose **Ada Brick**, who is an admin. An **Admin Command Center** panel appears. Switch to an employee and it disappears.
 4. Add `?as=u3` to the end of the URL and reload. The page now shows Clara Plate.

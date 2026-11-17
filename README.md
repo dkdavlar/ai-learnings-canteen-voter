@@ -4,12 +4,20 @@ A minimal starter for a canteen **menu voting** app, used in an AI-assisted deve
 
 ## Run it
 
-No build, backend or login. Either open `index.html` in a browser, or serve the folder:
+No build, backend or login. Install Python 3, open a terminal in the repository folder, and start a local server:
 
-```bash
-python3 -m http.server 8000
-# then open http://localhost:8000
+**Windows (PowerShell or Command Prompt):**
+```powershell
+py -3 -m http.server 8000
 ```
+If `py` is unavailable, try `python -m http.server 8000` instead.
+
+**macOS/Linux:**
+```sh
+python3 -m http.server 8000
+```
+
+Open <http://localhost:8000> in your browser. Stop the server with Ctrl+C. Using a local server is recommended because browsers handle storage for files opened directly differently.
 
 ## What's included
 

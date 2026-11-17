@@ -8,7 +8,7 @@ No prior Git or AI-agent experience is needed. Git terms are explained the first
 
 - A GitHub account with access to this repository, or to your own copy of it (your facilitator will tell you which)
 - The GitHub Copilot app installed and signed in
-- A browser, and Python 3 for running the page locally (`python3 -m http.server 8000`)
+- A browser and Python 3 for running the page locally. See the [run instructions](../README.md#run-it) for Windows and macOS/Linux.
 
 ## Tasks
 
